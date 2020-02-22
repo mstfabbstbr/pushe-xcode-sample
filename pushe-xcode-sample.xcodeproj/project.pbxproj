@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B3C5AAAB314C1E600E1318D6 /* Pods_PusheNotificationServiceExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC4A85CC62781CA09CBB65A5 /* Pods_PusheNotificationServiceExtension.framework */; };
 		C4724F8E23FE7F1300931192 /* ActionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4724F8C23FE7F1300931192 /* ActionTableViewCell.swift */; };
 		C4724F8F23FE7F1300931192 /* ActionTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C4724F8D23FE7F1300931192 /* ActionTableViewCell.xib */; };
 		C4B1969E23FE5AD100BB8621 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4B1969D23FE5AD100BB8621 /* AppDelegate.swift */; };
@@ -21,15 +22,46 @@
 		C4B196BB23FE683700BB8621 /* Hack-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C4B196B723FE683700BB8621 /* Hack-Bold.ttf */; };
 		C4B196BC23FE683700BB8621 /* Hack-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C4B196B823FE683700BB8621 /* Hack-BoldItalic.ttf */; };
 		C4B196BD23FE683700BB8621 /* Hack-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C4B196B923FE683700BB8621 /* Hack-Regular.ttf */; };
+		C4D29B102400E085001CDFA5 /* Action.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4D29B0F2400E085001CDFA5 /* Action.swift */; };
+		C4D29B182400E395001CDFA5 /* NotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4D29B172400E395001CDFA5 /* NotificationService.swift */; };
+		C4D29B1C2400E395001CDFA5 /* PusheNotificationServiceExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = C4D29B152400E395001CDFA5 /* PusheNotificationServiceExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		F9F90B6C4652A419F3AEC3DE /* Pods_pushe_xcode_sample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1EDD41F69FE822FB4103956A /* Pods_pushe_xcode_sample.framework */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C4D29B1A2400E395001CDFA5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C4B1969223FE5AD000BB8621 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C4D29B142400E395001CDFA5;
+			remoteInfo = PusheNotificationServiceExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C4D29B202400E395001CDFA5 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				C4D29B1C2400E395001CDFA5 /* PusheNotificationServiceExtension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		1CAE9E997014CCF44B842759 /* Pods-pushe-xcode-sample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-pushe-xcode-sample.debug.xcconfig"; path = "Target Support Files/Pods-pushe-xcode-sample/Pods-pushe-xcode-sample.debug.xcconfig"; sourceTree = "<group>"; };
 		1EDD41F69FE822FB4103956A /* Pods_pushe_xcode_sample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_pushe_xcode_sample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3426A14B201711D5B36A711D /* Pods-PusheNotificationServiceExtension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PusheNotificationServiceExtension.release.xcconfig"; path = "Target Support Files/Pods-PusheNotificationServiceExtension/Pods-PusheNotificationServiceExtension.release.xcconfig"; sourceTree = "<group>"; };
+		389BCD6F9786B0AC03A17CC4 /* Pods-PusheNotificationServiceExtension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PusheNotificationServiceExtension.debug.xcconfig"; path = "Target Support Files/Pods-PusheNotificationServiceExtension/Pods-PusheNotificationServiceExtension.debug.xcconfig"; sourceTree = "<group>"; };
+		AC4A85CC62781CA09CBB65A5 /* Pods_PusheNotificationServiceExtension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PusheNotificationServiceExtension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4724F8C23FE7F1300931192 /* ActionTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionTableViewCell.swift; sourceTree = "<group>"; };
 		C4724F8D23FE7F1300931192 /* ActionTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ActionTableViewCell.xib; sourceTree = "<group>"; };
-		C4B1969A23FE5AD100BB8621 /* pushe-xcode-sample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "pushe-xcode-sample.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C475CA202400F23C00723433 /* Pushe Demo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Pushe Demo.entitlements"; sourceTree = "<group>"; };
+		C4B1969A23FE5AD100BB8621 /* Pushe Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pushe Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4B1969D23FE5AD100BB8621 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C4B1969F23FE5AD100BB8621 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		C4B196A123FE5AD100BB8621 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -43,6 +75,10 @@
 		C4B196B723FE683700BB8621 /* Hack-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Hack-Bold.ttf"; sourceTree = "<group>"; };
 		C4B196B823FE683700BB8621 /* Hack-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Hack-BoldItalic.ttf"; sourceTree = "<group>"; };
 		C4B196B923FE683700BB8621 /* Hack-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Hack-Regular.ttf"; sourceTree = "<group>"; };
+		C4D29B0F2400E085001CDFA5 /* Action.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Action.swift; sourceTree = "<group>"; };
+		C4D29B152400E395001CDFA5 /* PusheNotificationServiceExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = PusheNotificationServiceExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4D29B172400E395001CDFA5 /* NotificationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationService.swift; sourceTree = "<group>"; };
+		C4D29B192400E395001CDFA5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EC99A847FA6FDA9DB0705EBC /* Pods-pushe-xcode-sample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-pushe-xcode-sample.release.xcconfig"; path = "Target Support Files/Pods-pushe-xcode-sample/Pods-pushe-xcode-sample.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -55,6 +91,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		C4D29B122400E395001CDFA5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3C5AAAB314C1E600E1318D6 /* Pods_PusheNotificationServiceExtension.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -62,6 +106,7 @@
 			isa = PBXGroup;
 			children = (
 				1EDD41F69FE822FB4103956A /* Pods_pushe_xcode_sample.framework */,
+				AC4A85CC62781CA09CBB65A5 /* Pods_PusheNotificationServiceExtension.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -71,6 +116,8 @@
 			children = (
 				1CAE9E997014CCF44B842759 /* Pods-pushe-xcode-sample.debug.xcconfig */,
 				EC99A847FA6FDA9DB0705EBC /* Pods-pushe-xcode-sample.release.xcconfig */,
+				389BCD6F9786B0AC03A17CC4 /* Pods-PusheNotificationServiceExtension.debug.xcconfig */,
+				3426A14B201711D5B36A711D /* Pods-PusheNotificationServiceExtension.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -80,6 +127,7 @@
 			children = (
 				C4B196B323FE67F500BB8621 /* README.md */,
 				C4B1969C23FE5AD100BB8621 /* pushe-xcode-sample */,
+				C4D29B162400E395001CDFA5 /* PusheNotificationServiceExtension */,
 				C4B1969B23FE5AD100BB8621 /* Products */,
 				AF657CC94098D8826C1F82D3 /* Pods */,
 				04D05776C2DB0474BF5E8CCF /* Frameworks */,
@@ -89,7 +137,8 @@
 		C4B1969B23FE5AD100BB8621 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C4B1969A23FE5AD100BB8621 /* pushe-xcode-sample.app */,
+				C4B1969A23FE5AD100BB8621 /* Pushe Demo.app */,
+				C4D29B152400E395001CDFA5 /* PusheNotificationServiceExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -97,6 +146,7 @@
 		C4B1969C23FE5AD100BB8621 /* pushe-xcode-sample */ = {
 			isa = PBXGroup;
 			children = (
+				C475CA202400F23C00723433 /* Pushe Demo.entitlements */,
 				C4B196B523FE681800BB8621 /* Fonts */,
 				C4B1969D23FE5AD100BB8621 /* AppDelegate.swift */,
 				C4B1969F23FE5AD100BB8621 /* SceneDelegate.swift */,
@@ -108,6 +158,7 @@
 				C4B196B123FE621F00BB8621 /* Colors.xcassets */,
 				C4724F8C23FE7F1300931192 /* ActionTableViewCell.swift */,
 				C4724F8D23FE7F1300931192 /* ActionTableViewCell.xib */,
+				C4D29B0F2400E085001CDFA5 /* Action.swift */,
 			);
 			path = "pushe-xcode-sample";
 			sourceTree = "<group>";
@@ -123,6 +174,15 @@
 			path = Fonts;
 			sourceTree = "<group>";
 		};
+		C4D29B162400E395001CDFA5 /* PusheNotificationServiceExtension */ = {
+			isa = PBXGroup;
+			children = (
+				C4D29B172400E395001CDFA5 /* NotificationService.swift */,
+				C4D29B192400E395001CDFA5 /* Info.plist */,
+			);
+			path = PusheNotificationServiceExtension;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,15 +195,35 @@
 				C4B1969723FE5AD100BB8621 /* Frameworks */,
 				C4B1969823FE5AD100BB8621 /* Resources */,
 				3F701FFBC100C05FBD2C1019 /* [CP] Embed Pods Frameworks */,
+				C4D29B202400E395001CDFA5 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C4D29B1B2400E395001CDFA5 /* PBXTargetDependency */,
+			);
+			name = "pushe-xcode-sample";
+			productName = "pushe-xcode-sample";
+			productReference = C4B1969A23FE5AD100BB8621 /* Pushe Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C4D29B142400E395001CDFA5 /* PusheNotificationServiceExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C4D29B1D2400E395001CDFA5 /* Build configuration list for PBXNativeTarget "PusheNotificationServiceExtension" */;
+			buildPhases = (
+				3E62E9B0B89AD1C12F8250E0 /* [CP] Check Pods Manifest.lock */,
+				C4D29B112400E395001CDFA5 /* Sources */,
+				C4D29B122400E395001CDFA5 /* Frameworks */,
+				C4D29B132400E395001CDFA5 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "pushe-xcode-sample";
-			productName = "pushe-xcode-sample";
-			productReference = C4B1969A23FE5AD100BB8621 /* pushe-xcode-sample.app */;
-			productType = "com.apple.product-type.application";
+			name = PusheNotificationServiceExtension;
+			productName = PusheNotificationServiceExtension;
+			productReference = C4D29B152400E395001CDFA5 /* PusheNotificationServiceExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
 
@@ -156,6 +236,9 @@
 				ORGANIZATIONNAME = pushe;
 				TargetAttributes = {
 					C4B1969923FE5AD100BB8621 = {
+						CreatedOnToolsVersion = 11.2;
+					};
+					C4D29B142400E395001CDFA5 = {
 						CreatedOnToolsVersion = 11.2;
 					};
 				};
@@ -174,6 +257,7 @@
 			projectRoot = "";
 			targets = (
 				C4B1969923FE5AD100BB8621 /* pushe-xcode-sample */,
+				C4D29B142400E395001CDFA5 /* PusheNotificationServiceExtension */,
 			);
 		};
 /* End PBXProject section */
@@ -191,14 +275,44 @@
 				C4B196B223FE621F00BB8621 /* Colors.xcassets in Resources */,
 				C4B196B423FE67F500BB8621 /* README.md in Resources */,
 				C4B196BA23FE683700BB8621 /* Hack-Italic.ttf in Resources */,
+				C475CA1F2400F0FD00723433 /* (null) in Resources */,
 				C4B196A723FE5AD500BB8621 /* Assets.xcassets in Resources */,
 				C4B196A523FE5AD100BB8621 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4D29B132400E395001CDFA5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		3E62E9B0B89AD1C12F8250E0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PusheNotificationServiceExtension-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
 		3F701FFBC100C05FBD2C1019 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -248,11 +362,28 @@
 				C4B196A223FE5AD100BB8621 /* ViewController.swift in Sources */,
 				C4724F8E23FE7F1300931192 /* ActionTableViewCell.swift in Sources */,
 				C4B1969E23FE5AD100BB8621 /* AppDelegate.swift in Sources */,
+				C4D29B102400E085001CDFA5 /* Action.swift in Sources */,
 				C4B196A023FE5AD100BB8621 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		C4D29B112400E395001CDFA5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4D29B182400E395001CDFA5 /* NotificationService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C4D29B1B2400E395001CDFA5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C4D29B142400E395001CDFA5 /* PusheNotificationServiceExtension */;
+			targetProxy = C4D29B1A2400E395001CDFA5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		C4B196A323FE5AD100BB8621 /* Main.storyboard */ = {
@@ -392,7 +523,9 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 1CAE9E997014CCF44B842759 /* Pods-pushe-xcode-sample.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "pushe-xcode-sample/Pushe Demo.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 974KZJZZY4;
 				INFOPLIST_FILE = "pushe-xcode-sample/Info.plist";
@@ -401,7 +534,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "co.me.pushe-xcode-sample";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Pushe Demo";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -411,7 +544,9 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = EC99A847FA6FDA9DB0705EBC /* Pods-pushe-xcode-sample.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "pushe-xcode-sample/Pushe Demo.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 974KZJZZY4;
 				INFOPLIST_FILE = "pushe-xcode-sample/Info.plist";
@@ -420,7 +555,47 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "co.me.pushe-xcode-sample";
+				PRODUCT_NAME = "Pushe Demo";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C4D29B1E2400E395001CDFA5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 389BCD6F9786B0AC03A17CC4 /* Pods-PusheNotificationServiceExtension.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 974KZJZZY4;
+				INFOPLIST_FILE = PusheNotificationServiceExtension/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "co.me.pushe-xcode-sample.PusheNotificationServiceExtension";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C4D29B1F2400E395001CDFA5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3426A14B201711D5B36A711D /* Pods-PusheNotificationServiceExtension.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 974KZJZZY4;
+				INFOPLIST_FILE = PusheNotificationServiceExtension/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "co.me.pushe-xcode-sample.PusheNotificationServiceExtension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -443,6 +618,15 @@
 			buildConfigurations = (
 				C4B196AF23FE5AD500BB8621 /* Debug */,
 				C4B196B023FE5AD500BB8621 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C4D29B1D2400E395001CDFA5 /* Build configuration list for PBXNativeTarget "PusheNotificationServiceExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4D29B1E2400E395001CDFA5 /* Debug */,
+				C4D29B1F2400E395001CDFA5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
