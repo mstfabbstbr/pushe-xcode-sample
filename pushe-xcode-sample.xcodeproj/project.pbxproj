@@ -10,6 +10,7 @@
 		B3C5AAAB314C1E600E1318D6 /* Pods_PusheNotificationServiceExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC4A85CC62781CA09CBB65A5 /* Pods_PusheNotificationServiceExtension.framework */; };
 		C4724F8E23FE7F1300931192 /* ActionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4724F8C23FE7F1300931192 /* ActionTableViewCell.swift */; };
 		C4724F8F23FE7F1300931192 /* ActionTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C4724F8D23FE7F1300931192 /* ActionTableViewCell.xib */; };
+		C4A3A7AF240125010059D9E9 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C4A3A7AE240125010059D9E9 /* GoogleService-Info.plist */; };
 		C4B1969E23FE5AD100BB8621 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4B1969D23FE5AD100BB8621 /* AppDelegate.swift */; };
 		C4B196A023FE5AD100BB8621 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4B1969F23FE5AD100BB8621 /* SceneDelegate.swift */; };
 		C4B196A223FE5AD100BB8621 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4B196A123FE5AD100BB8621 /* ViewController.swift */; };
@@ -61,6 +62,7 @@
 		C4724F8C23FE7F1300931192 /* ActionTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionTableViewCell.swift; sourceTree = "<group>"; };
 		C4724F8D23FE7F1300931192 /* ActionTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ActionTableViewCell.xib; sourceTree = "<group>"; };
 		C475CA202400F23C00723433 /* Pushe Demo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Pushe Demo.entitlements"; sourceTree = "<group>"; };
+		C4A3A7AE240125010059D9E9 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		C4B1969A23FE5AD100BB8621 /* Pushe Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pushe Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4B1969D23FE5AD100BB8621 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C4B1969F23FE5AD100BB8621 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -159,6 +161,7 @@
 				C4724F8C23FE7F1300931192 /* ActionTableViewCell.swift */,
 				C4724F8D23FE7F1300931192 /* ActionTableViewCell.xib */,
 				C4D29B0F2400E085001CDFA5 /* Action.swift */,
+				C4A3A7AE240125010059D9E9 /* GoogleService-Info.plist */,
 			);
 			path = "pushe-xcode-sample";
 			sourceTree = "<group>";
@@ -275,7 +278,7 @@
 				C4B196B223FE621F00BB8621 /* Colors.xcassets in Resources */,
 				C4B196B423FE67F500BB8621 /* README.md in Resources */,
 				C4B196BA23FE683700BB8621 /* Hack-Italic.ttf in Resources */,
-				C475CA1F2400F0FD00723433 /* (null) in Resources */,
+				C4A3A7AF240125010059D9E9 /* GoogleService-Info.plist in Resources */,
 				C4B196A723FE5AD500BB8621 /* Assets.xcassets in Resources */,
 				C4B196A523FE5AD100BB8621 /* Main.storyboard in Resources */,
 			);
