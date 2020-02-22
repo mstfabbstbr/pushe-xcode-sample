@@ -12,9 +12,9 @@ class ActionTableViewCell: UITableViewCell {
     
     @IBOutlet weak var titleLabel: UILabel!
     
-    var title: String? {
+    var action: Action? {
         didSet {
-            self.titleLabel.text = self.title
+            self.titleLabel.text = self.action?.rawValue
         }
     }
     
