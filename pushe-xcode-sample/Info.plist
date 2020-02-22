@@ -58,5 +58,12 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+	<key>UIAppFonts</key>
+	<array>
+		<string>Hack-Bold.ttf</string>
+		<string>Hack-BoldItalic.ttf</string>
+		<string>Hack-Italic.ttf</string>
+		<string>Hack-Regular.ttf</string>
+	</array>
 </dict>
 </plist>
