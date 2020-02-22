@@ -28,3 +28,5 @@ Podfile.lock
 
 # vim swap files
 *.swp
+
+GoogleService-Info.plist
