@@ -169,10 +169,10 @@ extension ViewController: UITableViewDelegate {
                 result += "\(deviceId)\n----------\n"
             }
             
-            /*if*/ let advertisingId = PusheClient.shared.getAdvertisingId() //{
+            if let advertisingId = PusheClient.shared.getAdvertisingId() {
                 result += "AdvertisingId:\n"
                 result += "\(advertisingId)"
-            //}
+            }
             
             let alertController = UIAlertController(title: "IDs", message: result, preferredStyle: .alert)
             alertController.addAction(UIAlertAction(title: "Ok", style: .default, handler: nil))
